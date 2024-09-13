@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --white: #ffffff;
+  --black: #000000;
+  --hospital-green: #acd9b2;
+  --sm: 1rem;
+  --md: 1.5rem;
+  --lg: 2rem;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.login-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 25rem;
+}
+
+.logo {
+  width: 10rem;
+  margin-bottom: 1rem;
+  justify-self: center;
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    display: block;
+  }
+}
+
+.titulo {
+  font-size: var(--lg);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: var(--md);
+  text-align: center;
+  color: var(--very-light-pink);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  background-color: var(--very-light-pink);
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  font-size: var(--md);
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.primary-button {
+  background-color: var(--hospital-green);
+  font-size: var(--md);
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  color: var(--white);
+  height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
