@@ -31,6 +31,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 25rem;
+  justify-items: center;
 }
 
 .logo {
@@ -93,4 +94,28 @@ input {
   margin-top: 3rem;
   margin-bottom: 3rem;
   cursor: pointer;
+}
+
+/* Seccion email */
+
+.email-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: var(--very-light-pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: var(--sm);
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer a {
+  font-size: var(--sm);
+  text-decoration: none;
+  color: var(--hospital-green);
 }
