@@ -1,3 +1,4 @@
+/*--------------GLOBALES------*/
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +34,8 @@ body {
   width: 25rem;
   justify-items: center;
 }
+
+/*----------INDEX---------*/
 
 .logo {
   width: 10rem;
@@ -73,6 +76,7 @@ input {
 
 .form {
   display: flex;
+  width: 100%;
   flex-direction: column;
   margin: 1rem 0;
 }
@@ -103,6 +107,14 @@ form div {
   cursor: pointer;
 }
 
+.primary-button:hover {
+  background-color: var(--very-light-pink);
+}
+
+.login-button {
+  width: 100%;
+}
+
 /* Section email */
 
 .email-img {
@@ -125,10 +137,6 @@ form div {
   font-size: var(--sm);
   text-decoration: none;
   color: var(--hospital-green);
-}
-
-.login-button {
-  width: 90%;
 }
 
 /* Section Login */
@@ -172,7 +180,7 @@ form div {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 640px) {
   .form {
     height: 100%;
     justify-content: space-between;
@@ -193,5 +201,11 @@ form div {
 
   .login-cuenta {
     height: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .login-container {
+    max-width: 280px;
   }
 }
