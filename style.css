@@ -72,7 +72,7 @@ input {
   height: 4rem;
   font-size: var(--md);
   padding: 0.6rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .form {
@@ -110,7 +110,7 @@ form div {
   background-color: var(--very-light-pink);
 }
 
-.login__btn {
+.confirm__btn {
   margin-top: 14px;
   margin-bottom: 30px;
 }
@@ -144,9 +144,14 @@ form div {
   color: var(--hospital-green);
 }
 
-/* Section Login */
+.email__btn {
+  width: 90%;
+  margin-bottom: 8px;
+}
 
-.secondary-button {
+/*--------------------- Section Login-------------- */
+
+.secondary__btn {
   background-color: var(--white);
   font-size: var(--md);
   font-weight: bold;
