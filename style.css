@@ -35,7 +35,7 @@ body {
   justify-items: center;
 }
 
-/*----------PASSWORD---------*/
+/*----------------------PASSWORD------------------------*/
 
 .logo {
   width: 10rem;
@@ -104,21 +104,20 @@ form div {
   color: var(--white);
   height: 5rem;
   cursor: pointer;
-  transition: 0.3s all ease;
 }
 
 .primary__button:hover {
   background-color: var(--very-light-pink);
 }
 
-.login__button {
+.login__btn {
   margin-top: 14px;
   margin-bottom: 30px;
 }
 
-/* Section email */
+/*-------------------- Section email----------- */
 
-.email-img {
+.img__email {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
@@ -126,19 +125,20 @@ form div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24px;
 }
 
-.email-img img {
+.email__img img {
   width: 80px;
 }
 
-.footer {
+.resend {
   font-size: var(--sm);
   font-weight: bold;
   text-align: center;
 }
 
-.footer a {
+.resend a {
   font-size: var(--sm);
   text-decoration: none;
   color: var(--hospital-green);
