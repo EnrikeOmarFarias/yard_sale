@@ -163,32 +163,30 @@ form div {
   width: 100%;
 }
 
-/* Section cuenta */
+/*-------------------- Section Cuenta --------*/
 
-.input_name,
-.input_email,
-.input_password {
+.input__name,
+.input__email,
+.input__password {
   margin-bottom: 2rem;
 }
 
 .h1__cuenta {
-  text-align: left;
+  text-align: start;
   font-size: var(--md);
   margin-bottom: 1rem;
 }
 
-form div {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Section Editar */
+/*----------------- Section Editar --------*/
 
 .value {
   color: var(--very-light-pink);
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin: 8px 0 32px 0;
+  font-size: var(--sm);
 }
+
+/*------------------Media Querys---------------*/
 
 @media (max-width: 640px) {
   .form {
@@ -204,7 +202,7 @@ form div {
     display: block;
   }
 
-  .login-cuenta {
+  .login__cuenta {
     height: 100%;
   }
 }
