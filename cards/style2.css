@@ -152,6 +152,104 @@ body {
   color: var(--hospital-green);
 }
 
+/*----------My order-------------*/
+
+.my__order {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.my__order-conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.my__order-order {
+  font-size: var(--lg);
+  margin-bottom: 40px;
+}
+
+.my__order-info {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.my__order-conteiner figure img {
+  width: 200px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.my__order-cards {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+
+  align-items: center;
+}
+
+.my__order-cards figure {
+  margin: 0;
+}
+
+.my__order-cards p:nth-child(2) {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+}
+
+.my__order-cards p:nth-child(3) {
+  color: var(--black);
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.my__order-info .order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: var(--text-input-field);
+  margin: 12px 0 20px 0;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: var(--sm);
+}
+
+.my__order-info .order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.my__order-info .order p:nth-child(2) {
+  text-align: end;
+  font-weight: bold;
+}
+
+.my__order-info .order p span:nth-child(1) {
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.my__order-info .order p span:nth-child(2) {
+  font-size: var(--sm);
+  color: var(--hospital-green);
+}
+
+/*--------------Mis ordenes----------*/
+
+.orders {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  align-items: center;
+  margin: 12px 0 20px 0;
+  font-size: var(--sm);
+}
+
 /*--------------Media Querys -------------*/
 
 @media (min-width: 640px) {
